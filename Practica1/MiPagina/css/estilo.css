@@ -1,0 +1,66 @@
+/*Estilo etiqueta*/
+body {
+    background-color: rgb(223, 190, 210);
+}
+
+/*Estilo etiqueta*/
+h1{
+    color: white;
+    text-align: center; 
+    background: #310606; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #ffffff;
+}
+
+/*Estilo clase y clase de etiqueta*/
+h2.clase1{
+    font-family: Monospace;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/*Estilo clase y clase de etiqueta*/
+h3.clase2{
+    font-family: Cursive;
+    text-align: center;
+}
+
+/*Estilo etiqueta*/
+p { 
+    font-size: 0.5cm;
+    background:rgb(197, 147, 147);
+}
+
+/*Estilo etiqueta*/
+p:nth-of-type(5) { 
+    font-size: 0.5cm;
+    background:whitesmoke;
+}
+
+/*Estilo etiqueta*/
+p:nth-of-type(6) { 
+    font-size: 0.5cm;
+    background:whitesmoke;
+}
+
+/*Estilo etiqueta*/
+p:nth-of-type(7) { 
+    font-size: 0.5cm;
+    background:whitesmoke;
+}
+
+/*Estilo etiqueta*/
+p:nth-of-type(8) { 
+    font-size: 0.5cm;
+    background:whitesmoke;
+}
+
+/*Estilo etiqueta*/
+iframe:nth-of-type(2){
+    width: 1000px;
+    height: 300px;
+}
