@@ -1,20 +1,19 @@
-//alert("Soy un mensaje de js");
+function cadenas(){
+    let a = 3;
+    let b = 'a';
+    let c = "Hola soy una cadena";
+    document.write("Soy un numero entero: "+a+"<br> Soy un caracter: "+b+"<br> Soy una cadena: "+c);
+}
 
-//let nombre = prompt("Ingresa tu nombre.");
-//document.write(nombre);
 
-let a = 3;
-let b = 'a';
-let c = "Hola soy una cadena";
-//document getElementById("var").innerHTML = document.write("Soy un numero entero: "+a+"<br> Soy un caracter: "+b+"<br> Soy una cadena: "+c);
-//document.write("Soy un numero entero: "+a+"<br> Soy un caracter: "+b+"<br> Soy una cadena: "+c);
+function arregloCarro(){
+    const componentes = ["CPU","GPU","Motherboard","RAM","Almacenamiento","Fuente de poder","Gabinete"];
+    document.write(componentes);
+}
 
-const cars = ["Saab", "Volvo", "BMW"];
-document.getElementById("demo").innerHTML = cars;
-
-const miTitulo = document.querySelector('h2');
-miTitulo.textContent = '¡Hola mundo!';
-
-function hola(){
-    document.write("Holaaaa");
+function ciclo(){
+    const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+    for (let i = 0; i < cars.length; i++) {
+        document.write(cars[i] + "<br>");
+    }
 }
