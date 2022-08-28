@@ -13,10 +13,33 @@
     <script> cadenas();</script>
     
     <h2>JavaScript Arrays</h2>
-    <script> arregloCarro();</script>
-    <br>
-    <br>
-    <script> ciclo();</script>
+    <p>El siguiente es un arreglo de componentes de PC.</p>
+    <script> arregloComponentes();</script>
+
+    <h2>Ciclos</h2>
+    <p>La siguiente lista se imprime con un ciclo for en JS.</p>
+    <script> cicloFor();</script>
+
+    <p>La siguiente lista se imprime con un ciclo While en JS.</p>
+    <script> cicloWhile();</script>
+
+    <h2>Condicional If</h2>
+    <p>Compara dos entradas con la condicional IF en JS.</p>
+    <form name="form" id="formulario">
+        Ingresa el primer valor: <input type="number" name="v1" required oninvalid="this.setCustomValidity('El valor no debe estar vacio')"><br>
+        Ingresa el segundo valor: <input type="number" name="v2" required oninvalid="this.setCustomValidity('El valor no debe estar vacio')"><br>
+        <input type="submit" value="Comparar" onClick="return condIf();">
+    </form>
+
+    <h2>Atender y validar datos de un formulario</h2>
+    <p>Atiende y valida los datos de una constraseña dado un username.</p>
+    <form name="form" id="valida">
+        Usuario: <input type="text" name="usuario" required oninvalid="this.setCustomValidity('El valor no debe estar vacio')"><br>
+        Contraseña: <input type="password" name="contra" required oninvalid="this.setCustomValidity('El valor no debe estar vacio')"><br>
+        Confirmar contraseña: <input type="password" name="contraConf" required oninvalid="this.setCustomValidity('El valor no debe estar vacio')"><br>
+        <input type="submit" value="Enviar" onClick="return validarForm();">
+    </form>
+
 
 </body>
 </html>
