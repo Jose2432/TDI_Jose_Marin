@@ -64,3 +64,9 @@ iframe:nth-of-type(2){
     width: 1000px;
     height: 300px;
 }
+
+/*Estilo etiqueta*/
+iframe:nth-of-type(3){
+    width: 1000px;
+    height: 300px;
+}
