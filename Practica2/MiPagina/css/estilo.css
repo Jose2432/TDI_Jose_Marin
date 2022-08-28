@@ -35,7 +35,7 @@ p {
     background:rgb(197, 147, 147);
 }
 
-/*Estilo etiqueta*/
+/*Estilo etiqueta*/ 
 p:nth-of-type(5) { 
     font-size: 0.5cm;
     background:whitesmoke;
