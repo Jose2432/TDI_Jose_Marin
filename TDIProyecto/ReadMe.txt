@@ -27,5 +27,5 @@ Para ejecutar debemos hacer lo siguiente.
 - Importar el proyecto en maven. 
 - Sobre el directorio raiz del programa hacer click derecho -> Run as -> Spring Boot App
 - Dirigirnos en el navegador a la ruta http://localhost:8080/
-- Todos los datos se almacenaran en la base de datos.
+- Todos los datos se almacenaran en la base de datos. 
 
